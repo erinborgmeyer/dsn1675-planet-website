@@ -1,0 +1,43 @@
+@-moz-viewport {width: device-width; scale: 1; }
+@-ms-viewport {width: device-width; scale: 1; }
+@-webkit-viewport {width: device-width; scale: 1; }
+@viewport {width: device-width; scale: 1; }
+
+html {
+ box-sizing: border-box;
+ -moz-text-size-adjust: 100%;
+ -ms-text-size-adjust: 100%;
+ -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+h1 {
+    text-align: center;
+    
+}
+
+.masthead {
+    background-color: grey;
+}
+
+.nav {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+
+}
+
+.venus {
+    width: 100%;
+    
+}
