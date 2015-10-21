@@ -10,12 +10,13 @@ html {
  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
+    
   }
+
   *, *::before, *::after {
     box-sizing: inherit;
+      
   }
-
-
 
 header {
     background-color: lightgrey;
@@ -44,6 +45,7 @@ body {
 }
 
 @media only screen and (min-width: 20em) {
+    
     h1 {
         text-align: center;
     
@@ -51,6 +53,7 @@ body {
 }
 
 @media only screen and (min-width: 40em) {
+    
     h1 {
         text-align: left;
         
