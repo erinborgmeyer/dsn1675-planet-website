@@ -15,12 +15,9 @@ html {
     box-sizing: inherit;
   }
 
-h1 {
-    text-align: center;
-    
-}
 
-.masthead {
+
+header {
     background-color: lightgrey;
     
 }
@@ -35,19 +32,29 @@ li {
     
 }
 
-nav a {
-    text-decoration: none;
-    
-}
-
 body {
-    margin: 0 auto;
+    margin: 0;
 
 }
 
 .venus {
     width: 100%;
     
+}
+
+@media only screen and (min-width: 20em) {
+    h1 {
+        text-align: center;
+    
+}
+}
+
+@media only screen and (min-width: 40em) {
+    h1 {
+        text-align: left;
+        
+        
+}
 }
 
 a:link {
