@@ -18,85 +18,62 @@ html {
       
   }
 
-header {
-    background-color: lightgrey;
-    
-}
-
-.nav {
-    list-style: none;
-    color: blue;
-}
-
-.headline {
-    background-color: #e2e2e2;
-    
-}
-
-h1 {
-    text-align:center;
-    
-}
-
-li {
-    list-style: none;
-    
-}
-
-.padding {
-    1rem;
-    
-}
-
-body {
+  body {
     margin: 0;
+  }
 
-}
-
-.venus {
+  .img-flex {
     width: 100%;
     display: block;
-    
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+ .nav {
+   list-style-type: none;
+   margin: 1;
+ }
+
+nav a:hover{
+  background-color: blue;
+  color: white;
+  padding: 1rem;
 }
 
-nav a:hover {
-	background-color: #1579db;
-	color: white;
+  nav a {
+   text-decoration: none;
+   color: blue;
+ }
+
+ .masthead {
+   background-color: lightgrey;
+     
+ }
+
+.planets {
+  width: 100%;
 }
 
-footer {
-	background-color: #cbcbcb;
+.footer {
+  background-color: #e3e3e3;
+  margin: 0;
 }
 
-@media only screen and (min-width: 20em) {
-    
-    h1 {
-        text-align: center;
-    
-    }
+ul {
+  padding: 0;
 }
 
-@media only screen and (min-width: 40em) {
-    
-    h1 {
-        text-align: left;
-               
-    }
-}
+@media only screen and (min-width:34em) {
 
-a:link {
-    text-decoration: none;
-}
 
-a:visited {
-    text-decoration: none;
-    color: blue;
-}
+  .nav li {
+    display: inline-block;
+  }
 
-a:hover {
-    text-decoration: underline;
-}
+  ul {
+    text-align: center;
+  }
 
-a:active {
-    text-decoration: underline;
 }
