@@ -18,62 +18,70 @@ html {
       
   }
 
-  body {
+body {
     margin: 0;
-  }
-
-  .venus {
-    width: 100%;
-    display: block;
-  }
-
-  h1 {
-    text-align: center;
-  }
-
- .nav {
-   list-style-type: none;
-   margin: 1;
- }
-
-nav a:hover{
-  background-color: blue;
-  color: white;
-  padding: 1rem;
+    
 }
 
-  nav a {
-   text-decoration: none;
-   color: blue;
- }
+.venus {
+    width: 100%;
+    display: block;
+    
+}
 
- .masthead {
-   background-color: lightgrey;
+h1 {
+    text-align: center;
+    
+}
+
+.nav {
+    list-style-type: none;
+    margin: 1;
+    
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.masthead {
+    background-color: lightgrey;
      
- }
+}
 
 .planets {
-  width: 100%;
+    width: 100%;
 }
 
 .footer {
-  background-color: #e3e3e3;
-  margin: 0;
+    background-color: #e3e3e3;
+    margin: 0;
+    
 }
 
 ul {
-  padding: 0;
+    padding: 0;
+    
 }
 
-@media only screen and (min-width:34em) {
+@media only screen and (min-width:35em) {
 
 
-  .nav li {
-    display: inline-block;
-  }
+    .nav li {
+        display: inline-block;
+    }
 
-  ul {
-    text-align: center;
-  }
+    ul {
+        text-align: center;
+    }
 
 }
