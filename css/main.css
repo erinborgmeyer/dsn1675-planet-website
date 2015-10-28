@@ -28,6 +28,16 @@ header {
     color: blue;
 }
 
+.headline {
+    background-color: #e2e2e2;
+    
+}
+
+h1 {
+    text-align:center;
+    
+}
+
 li {
     list-style: none;
     
@@ -47,6 +57,15 @@ body {
     width: 100%;
     display: block;
     
+}
+
+nav a:hover {
+	background-color: #1579db;
+	color: white;
+}
+
+footer {
+	background-color: #cbcbcb;
 }
 
 @media only screen and (min-width: 20em) {
