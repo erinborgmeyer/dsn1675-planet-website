@@ -31,11 +31,11 @@ body {
 
 h1 {
     text-align: center;
+    background-color: #e3e3e3;
     
 }
 
-nav {
-    padding: 0em 1em;
+.nav {
     list-style: none;
     margin: 1;
     
@@ -86,16 +86,14 @@ h2, h3 {
 
 .probes {
     background-color: #e3e3e3;
+    
+.
 
 @media only screen and (min-width:35em) {
 
 
     .nav li {
         display: inline-block;
-    }
-
-    ul {
-        text-align: center;
         list-style-type: none;
     }
 
